@@ -17,8 +17,8 @@ GeneSet Graph allows the user to display a visual respresentation of the relatio
 
 The current iteration of the tool produces a graph as shown in figure 1. 
 
-> *Figure 1*: A sample graph produced by the GeneSet Graph tool
 ![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/GeneSet_Graph_1.png)
+> *Figure 1*: A sample graph produced by the GeneSet Graph tool
 
 
 The graph is composed of two different types of nodes. A GeneSet node which is represented by a rectangle and a Gene node which is represented by a green circle. 
@@ -39,11 +39,11 @@ The graph is composed of two different types of nodes. A GeneSet node which is r
 We tried to have as little friction for the user as possible between the new and old systems, so the process for running the tool is the same as before.
 
 Select at least two gene sets
-![](https://lh4.googleusercontent.com/26exnTSS4xvLvURRl5Nx7qc70iS_9V2Ou6dewl2WMlKdSeO0wi-UwTfpk-vpcuMuWSyMW_KbOmV9-pdXOhMW=w1920-h1070-rw)
+![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/selectGeneSets.png)
 
 
 Choose the desired options
-![](https://lh5.googleusercontent.com/BoR3ZmkGcVWenQmOvQ7A2L44QDrA61LtV0iDOrRMgQQG3FtvhnLg5AvPxsPo297vVMOem_sHOty9jqwKw9Z1=w1920-h1103-rw)
+![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/chooseOptions.png)
 
 
 Once the user has selected the desired gene sets, and chosen the options they want, click run and the user will be redirected to the results page.
@@ -52,12 +52,10 @@ Once the user has selected the desired gene sets, and chosen the options they wa
 ##### Results
 
 The results of the tool is where a majority of the changes are visible. The user is presented with the list of gene sets (represented by rectangles), and genes (represented by circles) listed by their degree. Genes that have been emphasized are shown in yellow, otherwise they are shown in green. All genes in the result start selected.
-![](https://lh4.googleusercontent.com/Sxqdbk2txOnyKU2AhtJcYEhemAiNy5v10NTtJO6vP8MeK6I8-Q6gijWbL4ab9l0lgH-8omXldmSmFMqvWQZ5=w1920-h1103-rw)
-
-![](https://)
+![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/results.png)
 
 The user can choose which genes they want to remove from the graph by clicking them. Selected genes are denoted by a small circle in the bottom right of the gene.
-![](https://lh6.googleusercontent.com/8m0JAOxBblvtxvlepxQ1iTIv1L7UaucAwEjDDQBOUBEQBRWALKEezuS7rVJaIIBthqI3NxNgLEoTLVasHkmH=w1920-h1103-rw)
+![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/someSelected.png)
 
 There is a floating green button in the bottom right of the page that will scroll the graph into view.
 
@@ -85,7 +83,7 @@ There are now three different local rankings the user can choose from: Frequency
 
 Frequency is a value in the geneweaver database that is associated with each gene. The frequency for a gene is updated whenever that gene's associated geneset is added to a project. If a gene is shared between multiple genesets, that gene's frequency will be updated once for each geneset it is located in.
 
-![](https://lh5.googleusercontent.com/WTdPC58R55MA3ULOf4l1555tOkg4McFiSeZpBG1TXCXYBKp-fsE5abuVqIIH6eoHgMQjgaVwZCrYpSqrAYRy=w2315-h1141)
+![](https://danielholt.github.io/FinalGroupMarkdown/frequency.jpg)
 
 > _For example, if gene E is a part of geneset 1 and that geneset is added to a project, gene E's frequency will be increased. If gene E is also a part of geneset 2 and that geneset is added to a project, then gene E's frequency will be increased again._
 
@@ -94,13 +92,13 @@ Frequency values within a geneset on the View Geneset Details page are normalize
 
 Normalization is calculated using the min max normalization formula:
 
-> ![](https://lh5.googleusercontent.com/Jbj6gEsddlkFYCTxqVIy4PtPtuHiv0jzN9pLXjVCJJmFYtD7ea2PpKbaOBM6-Ash1L8RuGOOMtPGXEzK2Eo_=w2315-h1141)
+> ![](https://danielholt.github.io/FinalGroupMarkdown/min max.jpg)
 
 X min is the smallest frequency value in the geneset and X max is the largest frequency value. This scales data down to a range between 0 and 1 (0 being the least frequent and 1 the most frequent).
 
 For example, if a geneset had four frequency values that equaled 8, 10, 15 and 20, then after normalization the values would be 0, 0.16, 0.25 and 1, respectively.
 
-![](https://lh6.googleusercontent.com/6Z1SS566Tyf-PaxKcgQyST_Q9p_CNT4UGWAzOiFyeF6iojsZU37ma9dOau1xi6wUenFD2FLPCc70qqOKvDj1=w2315-h1141)
+![](https://danielholt.github.io/FinalGroupMarkdown/min max example.png)
 
 #### **_Information Content_**
 
@@ -109,7 +107,7 @@ Information content was calculated using Shannon Entropy. Entropy quantifies the
 
 Genes that do not appear frequently in many other genesets may provide specific or essential functions within that geneset. Information content allows the user to see which genes have a lower probability of appearing at random, therefore potentially making them genes of high interest within the geneset.
 
-![](https://lh4.googleusercontent.com/exfn4DuKHqS1d5OzsEMKv1mrBaU28RjMnLCFJhMPHoxlQXxXrtkvm05NSfdt-RTklv1MmhoQNohRhoXsjfKu=w2315-h1141)
+![](https://danielholt.github.io/FinalGroupMarkdown/Screen Shot 2017-12-05 at 2.57.20 PM.png)
 
 Shannon entropy is calculated using the equation above, where _pi_ equals the probability of each gene.
 
@@ -120,17 +118,17 @@ _Pi_ is calculated as follows:
 
 For example, Geneset 1 contains five genes:
 
-![](https://lh6.googleusercontent.com/4zNbFlnnfSwK7FSaH9zQvIFgAYX6S3hrNchg69bl5FAbU4Zx7A0TnYId1m-Ptsi7anUbAntbqK5Vk1uhJNEa=w2315-h1141)
+![](https://danielholt.github.io/FinalGroupMarkdown/gene2.jpg)
 
 These genes could be a part of other genesets
 
-![](https://lh6.googleusercontent.com/hDO54KGCJkDr9rpkL4yJFt279lkfuS8Bm7czbsaellV3cYgEhGNFo9rL4nATTjRHhactTqyxuptsSa3iKlfk=w2315-h1141)
+![](https://danielholt.github.io/FinalGroupMarkdown/genesets of genes.jpg)
 
 > _Genes B and C are also a part of geneset 2, gene D is a part of genesets 2 and 3, and E is also a part of geneset 3_
 
 In order to calculate a genes probability, all genes in both genesets 2 and 3 must be gathered.
 
-![](https://lh3.googleusercontent.com/Z6TjlYLSg1kzSkJj_uScUSkdCosxH1Aauh6QclSnh64Cv-dP_Tv_JpC15BXEHfnmuCNqO2G12f_9qH-Btl-R=w2315-h1141)
+![](https://danielholt.github.io/FinalGroupMarkdown/gene of genesets.jpg)
 
 > _Genes A through K are the total number of genes in all associated genesets_
 
