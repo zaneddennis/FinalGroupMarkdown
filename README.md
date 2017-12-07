@@ -1,7 +1,3 @@
-Put images here!!
-
-https://drive.google.com/drive/folders/1_bR8KmkzpvKUvn_NnVxZj_g2PNEIQseV
-
 # Pairwise Graph Team
 
 ## Overview
@@ -22,7 +18,7 @@ GeneSet Graph allows the user to display a visual respresentation of the relatio
 The current iteration of the tool produces a graph as shown in figure 1. 
 
 > *Figure 1*: A sample graph produced by the GeneSet Graph tool
-![](https://lh6.googleusercontent.com/HADJ9I7KWlVkzCVdElOlk9KvLQd4OdrqqaUDOVJBqYocCk0q2HFU4HTrkZQvf4MibdQ8EYhAt09q2M8ebAcH=w1920-h1070-rw)
+![](FinalGroupMarkdown/GeneSet_Graph_1.png)
 
 
 The graph is composed of two different types of nodes. A GeneSet node which is represented by a rectangle and a Gene node which is represented by a green circle. 
