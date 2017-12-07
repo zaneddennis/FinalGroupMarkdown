@@ -18,7 +18,7 @@ GeneSet Graph allows the user to display a visual respresentation of the relatio
 The current iteration of the tool produces a graph as shown in figure 1. 
 
 > *Figure 1*: A sample graph produced by the GeneSet Graph tool
-![](/FinalGroupMarkdown/GeneSet_Graph_1.png)
+![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/GeneSet_Graph_1.png)
 
 
 The graph is composed of two different types of nodes. A GeneSet node which is represented by a rectangle and a Gene node which is represented by a green circle. 
