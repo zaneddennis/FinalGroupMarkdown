@@ -17,7 +17,7 @@ GeneSet Graph allows the user to display a visual respresentation of the relatio
 
 The current iteration of the tool produces a graph as shown in figure 1. 
 
-![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/GeneSet_Graph_1.png)
+![](https://danielholt.github.io/FinalGroupMarkdown/GeneSet_Graph_1.png)
 > *Figure 1*: A sample graph produced by the GeneSet Graph tool
 
 
@@ -39,11 +39,11 @@ The graph is composed of two different types of nodes. A GeneSet node which is r
 We tried to have as little friction for the user as possible between the new and old systems, so the process for running the tool is the same as before.
 
 Select at least two gene sets
-![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/selectGeneSets.png)
+![](https://danielholt.github.io/FinalGroupMarkdown/selectGeneSets.png)
 
 
 Choose the desired options
-![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/chooseOptions.png)
+![](https://danielholt.github.io/FinalGroupMarkdown/chooseOptions.png)
 
 
 Once the user has selected the desired gene sets, and chosen the options they want, click run and the user will be redirected to the results page.
@@ -52,10 +52,10 @@ Once the user has selected the desired gene sets, and chosen the options they wa
 ##### Results
 
 The results of the tool is where a majority of the changes are visible. The user is presented with the list of gene sets (represented by rectangles), and genes (represented by circles) listed by their degree. Genes that have been emphasized are shown in yellow, otherwise they are shown in green. All genes in the result start selected.
-![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/results.png)
+![](https://danielholt.github.io/FinalGroupMarkdown/results.png)
 
 The user can choose which genes they want to remove from the graph by clicking them. Selected genes are denoted by a small circle in the bottom right of the gene.
-![](https://danielholt.github.io/FinalGroupMarkdown/FinalGroupMarkdown/someSelected.png)
+![](https://danielholt.github.io/FinalGroupMarkdown/someSelected.png)
 
 There is a floating green button in the bottom right of the page that will scroll the graph into view.
 
